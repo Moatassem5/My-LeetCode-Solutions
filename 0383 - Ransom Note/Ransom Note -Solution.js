@@ -1,17 +1,16 @@
-var canConstruct = function(ransomNote, magazine) {
-    const charCount = {};
- 
-    for (const char of magazine) {
-        charCount[char] = (charCount[char] || 0) + 1;
+var canConstruct = function (ransomNote, magazine) {
+  const charCount = {};
+
+  for (const char of magazine) {
+    charCount[char] = (charCount[char] || 0) + 1;
+  }
+
+  for (const char of ransomNote) {
+    if (!charCount[char] || charCount[char] <= 0) {
+      return false;
     }
- 
-    for (const char of ransomNote) {
-        if (!charCount[char] || charCount[char] <= 0) {
-            return false; 
-        }
-        charCount[char]--; 
-    }
- 
-    return true; 
- };
- 
+    charCount[char]--;
+  }
+
+  return true;
+};
