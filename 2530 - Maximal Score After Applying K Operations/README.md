@@ -22,6 +22,7 @@ In one  **operation**:
 Return  _the maximum possible  **score**  you can attain after applying  **exactly**_  `k`  _operations_.
 
 The ceiling function  `ceil(val)`  is the least integer greater than or equal to  `val`.
+
 <br>
 **Example 1:**
 
