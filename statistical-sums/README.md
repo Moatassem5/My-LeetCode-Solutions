@@ -1,6 +1,7 @@
 # Statistical Sums Problem 🧮✨
 
 ## Problem Overview 🚀
+![Statistical Analysis](./Statistical%20Problem.png)
 
 This problem is inspired by my **statistics course** from college 📚. It's not from LeetCode, but it's just as important to understand. In this problem, we calculate basic statistical sums: **ΣXY**, **ΣX**, and **ΣY**, which are commonly used in **correlation** and **covariance** calculations.
 
